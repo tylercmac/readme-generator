@@ -54,10 +54,10 @@ function init() {
     .then((answers) =>
         // write object to readme file
         writeToFile('README.md', answers),
+    )
+    .then(() => {
         console.log('README generated!')
-        
-
-    );
+    })
 }
 
 // Function call to initialize app
