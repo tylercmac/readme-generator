@@ -14,10 +14,12 @@ function PromptQ(type, message, name) {
 // My array of questions for user input
 const questions = [
     new PromptQ('input', 'What is your project title?', 'title'),
+    new PromptQ('input', 'What is the repo name?', 'repo'),
     new PromptQ('input', 'What is your project description?', 'description'),
-    new PromptQ('input', 'Give an example of this usage in JS', 'usage',),
+    new PromptQ('input', 'What is your installation instructions?', 'install'),
+    new PromptQ('input', 'What initial command would the user use to start using this app?', 'usage',),
     new PromptQ('input', 'How would you like people to contribute?', 'contribute'),
-    new PromptQ('input', 'What is a test for the user to run?', 'tests'),
+    new PromptQ('input', 'How would a user test this app?', 'tests'),
     {
         type: 'list',
         message: 'Which license do you want?',
@@ -51,7 +53,8 @@ function init() {
     // get answers object
     .then((answers) =>
         // write object to readme file
-        writeToFile('README.md', answers)
+        writeToFile('README.md', answers),
+        console.log('README generated!')
         
 
     );

@@ -1,39 +1,42 @@
-# tylercmac
-  
-  
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # README Generator
+
   ## Description
   
-  really good
+  This app alows the user to create a professional README with simple prompts, allowing more time for them to work on the core of their application.
   
   ## Table of Contents
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  - [License](#license)
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Contributing](#contributing)
+  4. [Tests](#tests)
+  5. [Questions](#questions)
+  6. [License](#license)
   
   ## Installation
   
   ```bash
-  git clone https://github.com:tylercmac/tylercmac.git
+  git clone https://github.com:tylercmac/readme-generator.git
   ```
+  To install, download the npm package "inquirer".
 
   ## Usage
   
-  ```javascript
-  console.log('it works')
+  This is an example of using it:
+  ```
+  node .\index.js
   ```
 
   ## Contributing
   
-  contribute by talking to me first
+  To contribute, contact me using the links below, and we can talk!
   
   
   ## Tests
   
-  run it by running it
+  To test this, run the node command above, and walk through the series of questions until the console tells you your file was generated. Check the file to see if the information is displayed in the way you would like. Make changes as necessary.
   
   ## Questions
   
@@ -41,5 +44,5 @@
   
   ## License
   
-  This application is covered under the  license.
+  This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
 

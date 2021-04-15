@@ -26,31 +26,34 @@ function renderLicenseLink(license) {
 
 // A function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
   ${renderLicenseBadge(data.license)}
-  
+  # ${data.title}
+
   ## Description
   
   ${data.description}
   
   ## Table of Contents
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  - [License](#license)
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Contributing](#contributing)
+  4. [Tests](#tests)
+  5. [Questions](#questions)
+  6. [License](#license)
   
   ## Installation
   
   \`\`\`bash
-  git clone https://github.com:${data.github}/${data.title}.git
+  git clone https://github.com:${data.github}/${data.repo}.git
   \`\`\`
+  ${data.install}
 
   ## Usage
   
-  \`\`\`javascript
+  This is an example of using it:
+  \`\`\`
   ${data.usage}
   \`\`\`
 
