@@ -45,8 +45,9 @@ function generateMarkdown(data) {
   
   ## Installation
   
+  To get this repo, run this command line:
   \`\`\`bash
-  git clone https://github.com:${data.github}/${data.repo}.git
+  $ git clone https://github.com:${data.github}/${data.repo}.git
   \`\`\`
   ${data.install}
 

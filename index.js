@@ -17,7 +17,7 @@ const questions = [
     new PromptQ('input', 'What is the repo name?', 'repo'),
     new PromptQ('input', 'What is your project description?', 'description'),
     new PromptQ('input', 'What is your installation instructions?', 'install'),
-    new PromptQ('input', 'What initial command would the user use to start using this app?', 'usage',),
+    new PromptQ('input', 'What initial command would the user use to start this app?', 'usage',),
     new PromptQ('input', 'How would you like people to contribute?', 'contribute'),
     new PromptQ('input', 'How would a user test this app?', 'tests'),
     {
