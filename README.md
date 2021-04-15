@@ -1,10 +1,10 @@
 
-  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-  # asdfgb
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # README Generator
 
   ## Description
   
-  asdg
+  This app alows the user to create a professional README with simple prompts, allowing more time for them to work on the core of their application.
   
   ## Table of Contents
   
@@ -18,31 +18,31 @@
   ## Installation
   
   ```bash
-  git clone https://github.com:sadfg/asdfg.git
+  git clone https://github.com:tylercmac/readme-generator.git
   ```
-  asdg
+  To install, download the npm package "inquirer".
 
   ## Usage
   
   This is an example of using it:
   ```
-  asdfg
+  node .\index.js
   ```
 
   ## Contributing
   
-  asdg
+  To contribute, contact me using the links below, and we can talk!
   
   
   ## Tests
   
-  asdg
+  To test this, run the node command above, and walk through the series of questions until the console tells you your file was generated. Check the file to see if the information is displayed in the way you would like. Make changes as necessary.
   
   ## Questions
   
-  Have any questions? Feel free head over to my [GitHub profile](https://github.com/sadfg), or email me at sdfg.
+  Have any questions? Feel free head over to my [GitHub profile](https://github.com/tylercmac), or email me at tylercmac@gmail.com.
   
   ## License
   
-  This application is covered under the [BSD](https://opensource.org/licenses/BSD-3-Clause) license.
+  This application is covered under the [MIT](https://opensource.org/licenses/MIT) license.
 
